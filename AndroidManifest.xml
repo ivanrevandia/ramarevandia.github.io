@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ivancorp.menuslidenavigation">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".About"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".VideoPhp" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ListModule" />
+        <activity android:name=".Praktikum" />
+        <activity android:name=".Helper" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsKD"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".LokasiKD"
+            android:parentActivityName=".ListLocation" />
+
+        <fragment android:name=".Petatab1" />
+        <fragment android:name=".Petatab2" />
+
+        <activity android:name=".Pretest" />
+        <activity android:name=".ListVideo" />
+        <activity android:name=".VideoHtml" />
+        <activity android:name=".VideoJavascript" />
+        <activity
+            android:name=".Module1"
+            android:parentActivityName=".ListModule" />
+        <activity
+            android:name=".Module2"
+            android:parentActivityName=".ListModule" />
+        <activity
+            android:name=".Module3"
+            android:parentActivityName=".ListModule" />
+
+        <fragment android:name=".Ilabtab1" />
+        <fragment android:name=".Ilabtab2" />
+
+        <activity android:name=".ListLocation" />
+        <activity
+            android:name=".LokasiIlab"
+            android:parentActivityName=".ListLocation" />
+        <activity
+            android:name=".LokasiKML"
+            android:parentActivityName=".ListLocation" />
+
+        <fragment android:name=".LokasiKMLtab1" />
+        <fragment android:name=".LokasiKMLtab2" />
+
+        <activity
+            android:name=".Mapsilab"
+            android:label="@string/title_activity_mapsilab" />
+        <activity
+            android:name=".MapsKML"
+            android:label="@string/title_activity_maps_kml" />
+        <activity
+            android:name=".LokasiKWC"
+            android:parentActivityName=".ListLocation" />
+
+        <fragment android:name=".LokasiKWCtab1" />
+        <fragment android:name=".LokasiKWCtab2" />
+
+        <activity
+            android:name=".MapsKWC"
+            android:label="@string/title_activity_maps_kwc" />
+        <activity
+            android:name=".LokasiCKG"
+            android:parentActivityName=".ListLocation" />
+
+        <fragment android:name=".LokasiCKGtab1" />
+        <fragment android:name=".LokasiCKGtab2" />
+
+        <activity
+            android:name=".MapsCKG"
+            android:label="@string/title_activity_maps_ckg" />
+        <activity android:name=".StudentSite" />
+        <activity android:name=".Quiz1" />
+        <activity android:name=".Quiz2" />
+        <activity android:name=".Quiz3" />
+        <activity android:name=".Module1Video" />
+        <activity android:name=".Module2Video" />
+        <activity android:name=".Module3Video"></activity>
+    </application>
+
+</manifest>

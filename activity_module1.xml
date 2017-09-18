@@ -1,0 +1,220 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="#FAF0e6">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/layout_toolbar" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_horizontal_margin"
+        android:layout_weight="92">
+        <LinearLayout
+            android:id="@+id/questionContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="350dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/gambar2module1"
+                android:id="@+id/imageView3"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="0.11" />
+
+            <TextView
+                android:id="@+id/TextAct1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Definisi Web"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/TextAct2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="World Wide Web (WWW, atau singkatnya Web) adalah suatu ruang informasi di mana sumber-sumber daya yang berguna diidentifikasi oleh pengenal global yang disebut Uniform Resource Identifier (URI). WWW sering dianggap sama dengan Internet secara keseluruhan, walaupun sebenarnya ia hanyalah bagian daripadanya"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/TextAct3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Markup Language"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/TextAct4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="• Mark up : informasi tambahan yang ditempatkan pada teks untuk menjelaskan bagaimana teks tersebut diinterpretasi.\n • Mark up ditambahkan bukan untuk tampilan tetapi untuk memberikan struktur interpretasi/pemberian arti.\n• HTML (HyperText Markup Language) merupakan subset dari SGML (Standard Generalized Markup Language).\n Contoh subset lain dari SGML :\n 1.XML (eXtensible Markup Language)\n 2.SMIL (Synchronized Multimedia Integration Language)\n 3.MathML (Mathematical Markup Language)\n 4.CML (Chemical Markup Language)"
+
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:id="@+id/TextAct5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Tentang HTML"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/TextAct6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="HTML : format standar untuk membuat dokumen web HTML versi terakhir : HTML 5\n • Spesifikasi HTML standar : http://www.w3.org/TR/html4\n• HTML merupakan bahasa bertanda, menggunakan rangkaian teks tertentu (tag) untuk menandai teks yang mempunyai interpretasi khusus\n • File HTML berupa file teks (plain text file), bukan binary file)"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:id="@+id/TextAct8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="HTML Authoring Tools"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="350dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/gaambarr2modul1"
+                android:id="@+id/imageView2"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="0.11" />
+            <TextView
+                android:id="@+id/TextAct16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="TAG HTML"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/TextAct17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Sebagai sebuah bahasa markup, HTML membutuhkan cara untuk memberitahu web browser untuk apa fungsi sebuah text. Apakah text itu ditulis sebagai sebuah paragraf, list, atau sebagai link? Dalam HTML, tanda ini dikenal dengan istilah tag.\nHampir semua tag di dalam HTML ditulis secara berpasangan, yakni tag pembuka dan tag penutup, dimana objek yang dikenai perintah tag berada di antara tag pembuka dan tag penutup ini. Objek disini dapat berupa text, gambar, maupun video. Penulisan tag berada di antara dua kurung siku.
+                \n Berikut adalah format dasar penulisan tag HTML: \n (tag_pembuka)objek yang dikenai perintah tag(tag_penutup)\n
+Sebagai contoh, perhatikan kode HTML berikut :\n (p) Ini adalah sebuah paragraf (/p)\n (p) adalah tag pembuka, dalam contoh ini p adalah tag untuk paragraf.\n (/p) adalah tag penutup paragraf. Perbedaannya dengan tag pembuka terletak dari tanda forward slash (/)\n
+Jika lupa memberikan penutup tag, umumnya browser akan memaafkan kesalahan ini dan tetap menampilkan hasilnya seolah-olah kita menuliskan tag penutup. Walaupun ini sepertinya memudahkan, tidak jarang malah membuat bingung."
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/TextAct9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Element HTML"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/TextAct10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Element adalah isi dari tag yang berada diantara tag pembuka dan tag penutup, termasuk tag itu sendiri dan atribut yang dimikinya (jika ada)."
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"/>
+            <TextView
+                android:id="@+id/TextAct11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Atribut HTML"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/TextAct12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Atribut adalah informasi tambahan yang diberikan kepada tag. Informasi ini bisa berupa instruksi untuk warna dari text, besar huruf dari text, dll. Setiap atribut memiliki pasangan nama dan nilai (value), dan ditulis dengan name=”value”. Value diapit tanda kutip, boleh menggunakan tanda kutip satu (‘) atau dua (“)."
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"/>
+            <TextView
+                android:id="@+id/TextAct7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Contoh Penulisan HTML"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="350dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/gambar1modul1"
+                android:id="@+id/imageView"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="0.11" />
+
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout
+        android:id="@+id/bottomSheetLlt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="8"
+        android:background="@android:color/transparent">
+        <ImageButton
+            android:layout_margin="10dp"
+            android:layout_width="70dp"
+            android:layout_height="79dp"
+            android:src="@drawable/ic_testmodule"
+            android:background="@drawable/ic_circle"
+            android:id="@+id/imageButton"
+            android:layout_gravity="right|bottom"
+            android:layout_marginTop="1dp" />
+
+        <ImageButton
+            android:layout_margin="10dp"
+            android:layout_width="70dp"
+            android:layout_height="79dp"
+            android:src="@drawable/ic_playvid"
+            android:background="@drawable/ic_circle"
+            android:id="@+id/imageButton2"
+            android:layout_gravity="left|bottom"
+            android:layout_marginTop="1dp" />
+    </FrameLayout>
+</LinearLayout>

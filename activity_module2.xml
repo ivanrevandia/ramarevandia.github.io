@@ -1,0 +1,306 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="#FAF0e6">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/layout_toolbar" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_horizontal_margin"
+        android:layout_weight="92">
+        <LinearLayout
+            android:id="@+id/questionContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="350dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/ic_gambar3modul2"
+                android:id="@+id/imageView3"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="0.11" />
+
+            <TextView
+                android:id="@+id/TextAct1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Pengertian PHP"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/TextAct2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="PHP adalah singkatandari PHP: Hypertext
+Preprocessor, yang merupakan sebuah bahasa scripting yang terpasang pada HTML. Sebagian besar sintaks mirip dengan bahasa C, Java dan Perl, ditambah beberapa fungsi PHP yang spesifik. Tujuan utama penggunaan bahasa ini adalah untuk memungkinkan perancang web menulis halaman web dinamik dengan cepat."
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"/>
+            <TextView
+                android:id="@+id/TextAct4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="• File html yang telah dibubuhi program php harus diganti ekstensi-nya menjadi.php3 atau.php."
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:id="@+id/TextAct3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Sintaks Dasar PHP"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="350dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/gambar1modul2"
+                android:id="@+id/imageView"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="0.11" />
+            <TextView
+                android:id="@+id/TextAct6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Paling sering digunakan adalah cara pertama dan kedua. Perhatikan bahwa tiap akhir baris harus selalu diberi tanda titik koma(;). Untuk menambahkan baris komentar pada PHP caranya adalah dengan meletakkan komentar tersebut disebelah kanan tanda // jika komentar satubaris dan diantara /* dan*/ jika komentarnya lebih dari satu baris."
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp" />
+
+
+            <TextView
+                android:id="@+id/TextAct7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Tipe Data"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/TextAct8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="PHP mengenal 5 macam tipe data, yaitu :"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:id="@+id/TextAct9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="1. Integer\n2. Float\n3. String\n4. Boolean\n5. Array"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/TextAct10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Integer"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/TextAct11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Yang termasuk dalam tipe data ini adalah bilangan bulat. contoh:\n1.$a = 1234 // desimal\n2.$b = -1234 // negatif\n3.$c = 0123 // oktal\n4.$d = 0x12 // heksadesimal"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:id="@+id/TextAct12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Floating Point Number"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/TextAct13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Disebut juga bilangan pecahan. Terdapat tanda titik yang merupakan pemisah antara bagian bulat dan pecahan.\n 1.$a = 1.234 // bentuk biasa\n 2.$b = 1.2e3 // bentuk eksponensial"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/TextAct14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="String"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/TextAct15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="String adalah type data pada php yang berisi text dan karakter dimana bentuknya bisa kata atau kalimat."
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/TextAct16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Boolean"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/TextAct17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Type boolean adalah tipe data pada php yang paling sederhana dalam bahasa pemrograman apapun. karena tipe data ini hanya memiliki dua nilai yaitu true dan false. tipe data boolean sering kali digunakan pada operasi logika seperti kondisi if dan looping."
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:id="@+id/TextAct18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Array"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/TextAct19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Array merupakan tipe data terstruktur yang berguna untuk menyimpan sejumlah data yang bertipe sama. Bagian yang menyusun array disebut elemen array, yang masing-masing elemen dapat diakses tersendiri melalui indeks array."
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/TextAct21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Contoh Array"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="190dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/gambar4modul2"
+                android:id="@+id/imageView4"
+                android:layout_marginLeft="1dp" />
+            <TextView
+                android:id="@+id/TextAct22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Kode diatas bila dijalankan pada browser, akan muncul tulisan:\nKota favorit saya adalah Malang."
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"/>
+            <TextView
+                android:id="@+id/TextAct23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Indeks array dimulai dari 0. Jadi indeks array 0 menyatakan elemen pertama dari array, indeks array 1 menyatakan elemen array kedua, dan seterusnya."
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/TextAct20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Contoh Sintaks Tipe Data"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="350dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/gambar2modul2"
+                android:id="@+id/imageView2"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="0.11" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout
+        android:id="@+id/bottomSheetLlt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="8"
+        android:background="@android:color/transparent">
+        <ImageButton
+            android:layout_margin="10dp"
+            android:layout_width="70dp"
+            android:layout_height="79dp"
+            android:src="@drawable/ic_testmodule"
+            android:background="@drawable/ic_circle"
+            android:id="@+id/imageButton"
+            android:layout_gravity="right|bottom"
+            android:layout_marginTop="1dp" />
+
+        <ImageButton
+            android:layout_margin="10dp"
+            android:layout_width="70dp"
+            android:layout_height="79dp"
+            android:src="@drawable/ic_playvid"
+            android:background="@drawable/ic_circle"
+            android:id="@+id/imageButton2"
+            android:layout_gravity="left|bottom"
+            android:layout_marginTop="1dp" />
+    </FrameLayout>
+</LinearLayout>

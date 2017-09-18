@@ -1,0 +1,269 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="#FAF0e6">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/layout_toolbar" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_horizontal_margin"
+        android:layout_weight="92">
+        <LinearLayout
+            android:id="@+id/questionContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="350dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/gambar4modul3"
+                android:id="@+id/imageView3"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="0.11" />
+            <TextView
+                android:id="@+id/TextAct1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Pengertian JavaScript"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/TextAct2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="• JavaScript adalah bahasa scripting yang paling populer di internet dan bekerja pada banyak browser seperti Internet Explorer, Mozilla, Firefox, Netscape, Opera."
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"/>
+            <TextView
+                android:id="@+id/TextAct4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="• JavaScript digunakan pada Web pages untuk meningkatkan design, validate forms, detect browsers, create cookies, GUI dsb."
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:id="@+id/TextAct3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Sintaks Dasar JavaScript"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/gambar1modul3"
+                android:id="@+id/imageView"
+                android:layout_marginLeft="1dp" />
+            <TextView
+                android:id="@+id/TextAct6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="• JavaScript menggunakan sintaks seperti C++/Java."
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:id="@+id/TextAct7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Apa itu JavaScript ?"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/TextAct8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="1. JavaScript dirancang untuk menambah interaktif HTML pages.\n 2. JavaScript adalah bahasa scripting (bahasa scripting adalah sebuah lightweight programming language).\n 3.JavaScript terdiri dari baris-baris code executable computer.\n 4.JavaScript biasanya embedded secara langsung pada HTML pages.\n 5. JavaScript adalah interpreted language (artinya bahwa scripts dijalankan tanpa di kompile terlebih dahulu).\n 6. Setiap orang dpt menggunakan JavaScript tanpa harus membeli license.
+"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:id="@+id/TextAct9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Perbedaan Java dan JavaScript"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/TextAct25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="1. Java dan JavaScript adalah dua bahasa yang berbeda baik dari sisi konsep
+maupun dari sisi desain.\n
+2. Java (dikembangkan oleh Sun Microsystems) adalah sebuah bahasa
+pemrograman yang powerful dan sangat kompleks – sama dengan C dan C++."
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/TextAct10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Fungsi JavaScript"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/TextAct11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="1.	JavaScript dapat bereaksi terhadap events - JavaScript dapat di-set untuk menjalankan saat terjadi sesuatu, seperti sebuah page telah selesai dipanggil atau saat seorang user meng-klik pada
+HTML element\n 2.	JavaScript dapat membaca dan menulis HTML elements - JavaScript dapat membaca dan mengubah isi dari HTML element.\n 3.	JavaScript dapat digunakan untuk mem-validasi data - JavaScript dapat digunakan untuk mem-validasi form data sebelum di-submitted ke server, hal ini akan mengamankan server dari pemrosesan extra.\n 4.	JavaScript dapat digunakan untuk mendeteksi browser pengunjung - JavaScript dapat digunakan untuk mendeteksi browser pengunjung dan – memanggil page lain yang secara specifik didesain untuk browser tersebut.\n 5.	JavaScript dapat digunakan untuk membuat cookies - JavaScript dapat digunakan untuk menyimpan dan memanggil informasi di komputer pengunjung."
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:id="@+id/TextAct12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Pemrograman Client Side"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/TextAct13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="1. Programs ditulis dalam bahasa pemrograman yang terpisah contoh : JavaScript, JScript, VBScript\n
+2. Programs diembedded pada HTML Web page, untuk mengidentifikasi komponen program Contoh : (script type= 'text/javascript') … (/script)\n
+3. Untuk menjalankan program guna menampilkan page digunakan browser, yang mengintegrasikan dynamic output dengan static content dari HTML"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp" />
+            <TextView
+                android:id="@+id/TextAct14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Jenis Script"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/TextAct15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="1. JavaScript adalah Web scripting language pertama, yang dikembangkan oleh Netscape pada tahun 1995. Mirip dengan Java/C++, tetapi lebih sederhana dan lebih fleksibel (loose typing, dynamic variables, simple objects).\n
+2. JScript: adalah JavaScript versi Microsoft, diperkenalkan tahun 1996 core language yang sama, tetapi beberapa browser-specific seperti, IE dan Netscape umumnya dapat menangani JavaScript dan JScript.\n
+3. VBScript: adalah client-side scripting versi Microsoft Visual Basic."
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:id="@+id/TextAct16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Tipe Data JavaScript"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/TextAct17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="JavaScript hanya mempunyai 3 tipe data primitive yaitu :\n 1. Boolean\n 2. Integer\n 3. String"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:id="@+id/TextAct18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Operator Pada JavaScript"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:paddingLeft="5dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="350dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/gambar2modul3"
+                android:id="@+id/imageView2"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="0.11" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout
+        android:id="@+id/bottomSheetLlt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="8"
+        android:background="@android:color/transparent">
+        <ImageButton
+            android:layout_margin="10dp"
+            android:layout_width="70dp"
+            android:layout_height="79dp"
+            android:src="@drawable/ic_testmodule"
+            android:background="@drawable/ic_circle"
+            android:id="@+id/imageButton"
+            android:layout_gravity="right|bottom"
+            android:layout_marginTop="1dp" />
+
+        <ImageButton
+            android:layout_margin="10dp"
+            android:layout_width="70dp"
+            android:layout_height="79dp"
+            android:src="@drawable/ic_playvid"
+            android:background="@drawable/ic_circle"
+            android:id="@+id/imageButton2"
+            android:layout_gravity="left|bottom"
+            android:layout_marginTop="1dp" />
+    </FrameLayout>
+</LinearLayout>
